@@ -2,11 +2,14 @@
 * @Author: linzhi
 * @Date:   2018-05-20 16:57:58
 * @Last Modified by:   牛培楠
-* @Last Modified time: 2018-07-22 23:41:45
+* @Last Modified time: 2018-07-23 19:09:00
 */
 *{
 	margin: 0;
 	padding: 0;
+
+
+	
 	list-style: none;
 }
 img{
@@ -569,6 +572,7 @@ a{
 	position: absolute;
 	top: 0;
 	right: 0;
+	z-index: 5;
 }
 .shoplist .bigtu .left,.right{
 	display: block;
@@ -577,18 +581,20 @@ a{
 	position: absolute;
 	top: 180px;
 	margin: auto 0;
-	opacity: 0;
+	z-index: 20;
 
 }
 .shoplist .bigtu .left{
 	left: 0;
 	background-image: url('../img/index.png');
 	background-position: -83px -140px;
+	z-index: 100;
 }
 .shoplist .bigtu .right{
 	right: 0;
 	background-image: url('../img/index.png');
 	background-position: -121px -140px;
+	z-index: 100;
 }
 .shoplist .bigtu:hover .left{
 	opacity: 1;
@@ -602,6 +608,7 @@ a{
 	position: absolute;
 	right: 310px;
 	bottom: -428px;
+	z-index: 20;
 }
 .shoplist .bigtu .btns .btn{
 	display: block;
@@ -622,6 +629,7 @@ a{
 	position: absolute;
 	right: 5px;
 	top: 5px;
+	z-index: 20;
 }
 .shoplist .bigtu .adv .name{
 	font-size: 14px;
@@ -650,6 +658,7 @@ a{
 	position: absolute;
 	right: 5px;
 	bottom: 5px;
+	z-index: 20;
 }
 .shoplist .bigtu .adv1 .name{
 	font-size: 14px;
